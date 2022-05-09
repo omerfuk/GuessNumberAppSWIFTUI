@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEBCBE1428291B1C008D25BB /* GuessNumberAppSWIFTUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBCBE1328291B1C008D25BB /* GuessNumberAppSWIFTUIApp.swift */; };
+		DEBCBE1628291B1C008D25BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBCBE1528291B1C008D25BB /* ContentView.swift */; };
+		DEBCBE1828291B1D008D25BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEBCBE1728291B1D008D25BB /* Assets.xcassets */; };
+		DEBCBE1B28291B1D008D25BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEBCBE1A28291B1D008D25BB /* Preview Assets.xcassets */; };
+		DEBCBE2528291B1D008D25BB /* GuessNumberAppSWIFTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBCBE2428291B1D008D25BB /* GuessNumberAppSWIFTUITests.swift */; };
+		DEBCBE2F28291B1D008D25BB /* GuessNumberAppSWIFTUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBCBE2E28291B1D008D25BB /* GuessNumberAppSWIFTUIUITests.swift */; };
+		DEBCBE3128291B1D008D25BB /* GuessNumberAppSWIFTUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBCBE3028291B1D008D25BB /* GuessNumberAppSWIFTUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEBCBE2128291B1D008D25BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEBCBE0828291B1C008D25BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEBCBE0F28291B1C008D25BB;
+			remoteInfo = GuessNumberAppSWIFTUI;
+		};
+		DEBCBE2B28291B1D008D25BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEBCBE0828291B1C008D25BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEBCBE0F28291B1C008D25BB;
+			remoteInfo = GuessNumberAppSWIFTUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEBCBE1028291B1C008D25BB /* GuessNumberAppSWIFTUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessNumberAppSWIFTUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEBCBE1328291B1C008D25BB /* GuessNumberAppSWIFTUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberAppSWIFTUIApp.swift; sourceTree = "<group>"; };
+		DEBCBE1528291B1C008D25BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DEBCBE1728291B1D008D25BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEBCBE1A28291B1D008D25BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEBCBE2028291B1D008D25BB /* GuessNumberAppSWIFTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessNumberAppSWIFTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEBCBE2428291B1D008D25BB /* GuessNumberAppSWIFTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberAppSWIFTUITests.swift; sourceTree = "<group>"; };
+		DEBCBE2A28291B1D008D25BB /* GuessNumberAppSWIFTUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessNumberAppSWIFTUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEBCBE2E28291B1D008D25BB /* GuessNumberAppSWIFTUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberAppSWIFTUIUITests.swift; sourceTree = "<group>"; };
+		DEBCBE3028291B1D008D25BB /* GuessNumberAppSWIFTUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberAppSWIFTUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEBCBE0D28291B1C008D25BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBCBE1D28291B1D008D25BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBCBE2728291B1D008D25BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEBCBE0728291B1C008D25BB = {
+			isa = PBXGroup;
+			children = (
+				DEBCBE1228291B1C008D25BB /* GuessNumberAppSWIFTUI */,
+				DEBCBE2328291B1D008D25BB /* GuessNumberAppSWIFTUITests */,
+				DEBCBE2D28291B1D008D25BB /* GuessNumberAppSWIFTUIUITests */,
+				DEBCBE1128291B1C008D25BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEBCBE1128291B1C008D25BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEBCBE1028291B1C008D25BB /* GuessNumberAppSWIFTUI.app */,
+				DEBCBE2028291B1D008D25BB /* GuessNumberAppSWIFTUITests.xctest */,
+				DEBCBE2A28291B1D008D25BB /* GuessNumberAppSWIFTUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEBCBE1228291B1C008D25BB /* GuessNumberAppSWIFTUI */ = {
+			isa = PBXGroup;
+			children = (
+				DEBCBE1328291B1C008D25BB /* GuessNumberAppSWIFTUIApp.swift */,
+				DEBCBE1528291B1C008D25BB /* ContentView.swift */,
+				DEBCBE1728291B1D008D25BB /* Assets.xcassets */,
+				DEBCBE1928291B1D008D25BB /* Preview Content */,
+			);
+			path = GuessNumberAppSWIFTUI;
+			sourceTree = "<group>";
+		};
+		DEBCBE1928291B1D008D25BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DEBCBE1A28291B1D008D25BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DEBCBE2328291B1D008D25BB /* GuessNumberAppSWIFTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEBCBE2428291B1D008D25BB /* GuessNumberAppSWIFTUITests.swift */,
+			);
+			path = GuessNumberAppSWIFTUITests;
+			sourceTree = "<group>";
+		};
+		DEBCBE2D28291B1D008D25BB /* GuessNumberAppSWIFTUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEBCBE2E28291B1D008D25BB /* GuessNumberAppSWIFTUIUITests.swift */,
+				DEBCBE3028291B1D008D25BB /* GuessNumberAppSWIFTUIUITestsLaunchTests.swift */,
+			);
+			path = GuessNumberAppSWIFTUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEBCBE0F28291B1C008D25BB /* GuessNumberAppSWIFTUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEBCBE3428291B1D008D25BB /* Build configuration list for PBXNativeTarget "GuessNumberAppSWIFTUI" */;
+			buildPhases = (
+				DEBCBE0C28291B1C008D25BB /* Sources */,
+				DEBCBE0D28291B1C008D25BB /* Frameworks */,
+				DEBCBE0E28291B1C008D25BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessNumberAppSWIFTUI;
+			productName = GuessNumberAppSWIFTUI;
+			productReference = DEBCBE1028291B1C008D25BB /* GuessNumberAppSWIFTUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEBCBE1F28291B1D008D25BB /* GuessNumberAppSWIFTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEBCBE3728291B1D008D25BB /* Build configuration list for PBXNativeTarget "GuessNumberAppSWIFTUITests" */;
+			buildPhases = (
+				DEBCBE1C28291B1D008D25BB /* Sources */,
+				DEBCBE1D28291B1D008D25BB /* Frameworks */,
+				DEBCBE1E28291B1D008D25BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEBCBE2228291B1D008D25BB /* PBXTargetDependency */,
+			);
+			name = GuessNumberAppSWIFTUITests;
+			productName = GuessNumberAppSWIFTUITests;
+			productReference = DEBCBE2028291B1D008D25BB /* GuessNumberAppSWIFTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEBCBE2928291B1D008D25BB /* GuessNumberAppSWIFTUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEBCBE3A28291B1D008D25BB /* Build configuration list for PBXNativeTarget "GuessNumberAppSWIFTUIUITests" */;
+			buildPhases = (
+				DEBCBE2628291B1D008D25BB /* Sources */,
+				DEBCBE2728291B1D008D25BB /* Frameworks */,
+				DEBCBE2828291B1D008D25BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEBCBE2C28291B1D008D25BB /* PBXTargetDependency */,
+			);
+			name = GuessNumberAppSWIFTUIUITests;
+			productName = GuessNumberAppSWIFTUIUITests;
+			productReference = DEBCBE2A28291B1D008D25BB /* GuessNumberAppSWIFTUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEBCBE0828291B1C008D25BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DEBCBE0F28291B1C008D25BB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					DEBCBE1F28291B1D008D25BB = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DEBCBE0F28291B1C008D25BB;
+					};
+					DEBCBE2928291B1D008D25BB = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DEBCBE0F28291B1C008D25BB;
+					};
+				};
+			};
+			buildConfigurationList = DEBCBE0B28291B1C008D25BB /* Build configuration list for PBXProject "GuessNumberAppSWIFTUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEBCBE0728291B1C008D25BB;
+			productRefGroup = DEBCBE1128291B1C008D25BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEBCBE0F28291B1C008D25BB /* GuessNumberAppSWIFTUI */,
+				DEBCBE1F28291B1D008D25BB /* GuessNumberAppSWIFTUITests */,
+				DEBCBE2928291B1D008D25BB /* GuessNumberAppSWIFTUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEBCBE0E28291B1C008D25BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBCBE1B28291B1D008D25BB /* Preview Assets.xcassets in Resources */,
+				DEBCBE1828291B1D008D25BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBCBE1E28291B1D008D25BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBCBE2828291B1D008D25BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEBCBE0C28291B1C008D25BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBCBE1628291B1C008D25BB /* ContentView.swift in Sources */,
+				DEBCBE1428291B1C008D25BB /* GuessNumberAppSWIFTUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBCBE1C28291B1D008D25BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBCBE2528291B1D008D25BB /* GuessNumberAppSWIFTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBCBE2628291B1D008D25BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBCBE2F28291B1D008D25BB /* GuessNumberAppSWIFTUIUITests.swift in Sources */,
+				DEBCBE3128291B1D008D25BB /* GuessNumberAppSWIFTUIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEBCBE2228291B1D008D25BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEBCBE0F28291B1C008D25BB /* GuessNumberAppSWIFTUI */;
+			targetProxy = DEBCBE2128291B1D008D25BB /* PBXContainerItemProxy */;
+		};
+		DEBCBE2C28291B1D008D25BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEBCBE0F28291B1C008D25BB /* GuessNumberAppSWIFTUI */;
+			targetProxy = DEBCBE2B28291B1D008D25BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DEBCBE3228291B1D008D25BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEBCBE3328291B1D008D25BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEBCBE3528291B1D008D25BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GuessNumberAppSWIFTUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerKilicaslan.GuessNumberAppSWIFTUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEBCBE3628291B1D008D25BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GuessNumberAppSWIFTUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerKilicaslan.GuessNumberAppSWIFTUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DEBCBE3828291B1D008D25BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerKilicaslan.GuessNumberAppSWIFTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessNumberAppSWIFTUI.app/GuessNumberAppSWIFTUI";
+			};
+			name = Debug;
+		};
+		DEBCBE3928291B1D008D25BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerKilicaslan.GuessNumberAppSWIFTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessNumberAppSWIFTUI.app/GuessNumberAppSWIFTUI";
+			};
+			name = Release;
+		};
+		DEBCBE3B28291B1D008D25BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerKilicaslan.GuessNumberAppSWIFTUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuessNumberAppSWIFTUI;
+			};
+			name = Debug;
+		};
+		DEBCBE3C28291B1D008D25BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omerKilicaslan.GuessNumberAppSWIFTUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuessNumberAppSWIFTUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEBCBE0B28291B1C008D25BB /* Build configuration list for PBXProject "GuessNumberAppSWIFTUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBCBE3228291B1D008D25BB /* Debug */,
+				DEBCBE3328291B1D008D25BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEBCBE3428291B1D008D25BB /* Build configuration list for PBXNativeTarget "GuessNumberAppSWIFTUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBCBE3528291B1D008D25BB /* Debug */,
+				DEBCBE3628291B1D008D25BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEBCBE3728291B1D008D25BB /* Build configuration list for PBXNativeTarget "GuessNumberAppSWIFTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBCBE3828291B1D008D25BB /* Debug */,
+				DEBCBE3928291B1D008D25BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEBCBE3A28291B1D008D25BB /* Build configuration list for PBXNativeTarget "GuessNumberAppSWIFTUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBCBE3B28291B1D008D25BB /* Debug */,
+				DEBCBE3C28291B1D008D25BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEBCBE0828291B1C008D25BB /* Project object */;
+}
